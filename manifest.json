@@ -1,0 +1,16 @@
+{
+  "name": "vega-lite-wrapper",
+  "vendor": "vtex",
+  "version": "1.0.0",
+  "title": "VTEX Vega Lite",
+  "description": "A wrapper for Vega Lite",
+  "mustUpdateAt": "2019-10-29",
+  "categories": [],
+  "registries": ["smartcheckout"],
+  "settingsSchema": {},
+  "dependencies": {},
+  "builders": {
+    "pages": "0.x",
+    "react": "2.x"
+  }
+}
