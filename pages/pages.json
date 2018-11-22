@@ -1,9 +1,4 @@
 {
-  "pages": {
-    "vega-lite-wrapper": {
-      "path": "/vega-lite-wrapper"
-    }
-  },
   "extensions": {
     "vega-lite-wrapper": {
       "component": "VegaLiteWrapper"

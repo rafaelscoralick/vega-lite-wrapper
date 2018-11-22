@@ -1,7 +1,7 @@
 {
   "name": "vega-lite-wrapper",
   "vendor": "vtex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Vega Lite wrapper",
   "description": "A wrapper for responsive charts with React Vega Lite",
   "mustUpdateAt": "2019-10-29",
