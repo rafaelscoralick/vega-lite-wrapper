@@ -1,0 +1,7 @@
+{
+  "extensions": {
+    "vega-lite-wrapper": {
+      "component": "VegaLiteWrapper"
+    }
+  }
+}
