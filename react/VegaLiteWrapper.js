@@ -7,17 +7,13 @@ import ContainerDimensions from 'react-container-dimensions'
 class VegaLiteWrapper extends React.Component {
   render() {
     const { spec, data, responsiveWidth } = this.props
-    const chartData = { values: data }
 
     if (responsiveWidth) {
       return (
         <ContainerDimensions>
           {({ width }) => {
-            const responsiveSpec = {
-              ...spec,
-              width: Math.floor(width),
-            }
-            return <VegaLite spec={responsiveSpec} data={chartData} />
+            const responsiveSpec = { ...spec, width: Math.floor(width) }
+            return <VegaLite spec={responsiveSpec} data={data} />
           }}
         </ContainerDimensions>
       )
