@@ -19,7 +19,7 @@ class VegaLiteWrapper extends React.Component {
       )
     }
 
-    return <VegaLite spec={spec} data={chartData} />
+    return <VegaLite spec={spec} data={data} />
   }
 }
 
